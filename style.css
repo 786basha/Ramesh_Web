@@ -139,18 +139,10 @@
 
 .bd {
   width: 100vw;
-  height: fit-content;
-  
+  height: fit-content; 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around ;
-}
-
-.left{
-  min-width: 60vw;
-  height: 600px;
-  /* border: 1px solid red; */
 }
 .right{
   width: 400px;
@@ -349,4 +341,19 @@
     margin-top: 4%;
   }
 }
+.bd #top{
+  visibility: visible;
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+}
+.top button{
+  background-color: wheat;
+  padding: 10px;
+
+}
+}
+
+.bd #top{
+  visibility: hidden;
 }
