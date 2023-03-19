@@ -150,7 +150,7 @@
 .left{
   min-width: 60vw;
   height: 600px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .right{
   width: 400px;
