@@ -177,7 +177,7 @@
   background-color: transparent;
   padding: 10px;
   text-align: center;
-  margin: 2% 0;
+  margin: 3% 0;
   border: none;
   box-shadow: 0px 0px 10px rgb(95, 85, 67);
   border-radius: 20px;
@@ -320,6 +320,7 @@
   .bd .right{
     width: 100%;
   }
+
   .bd #down{
     width: 80vw;
     /* height: fit-content; */
@@ -340,6 +341,12 @@
   }
   #port #usr_sub{
     box-shadow: 1px 1px 2px black;
+  }
+  .right form input{
+    margin: 5% 0;
+  }
+  .right form #auth{
+    margin-top: 4%;
   }
 }
 }
