@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="page">
+
+        <!-- Navigation bar -->
+
+        <nav>
+
+            <!-- LOGO -->
+
+            <div class="logo">
+                <h2>Basha</h2>
+            </div>
+
+            <!-- LINKS  -->
+
+            <div class="link">
+                <a href="html/About.html" id="nav_1">About us</a>
+                <!-- <a href="#">Resource</a> -->
+                <div class="dropdown">
+                    <button class="dropbtn">Resources <i class="fa fa-cloud-arrow-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="html/exam-cell.html">Exam Cell</a>
+                        <a href="html/feature.html">Feature guidence</a>
+                        <a href="#">Interview Section</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Test's <i class="fa fa-sort-down" aria-hidden="true"></i></button>
+                    <div class="dropdown-content">
+                      <a href="html/mock-test.html">Mock Test</a>
+                      <a href="#">Model papers</a>
+                      <a href="#">Referance</a>
+                    </div>
+                  </div>
+                <a href="html/project.html" id="nav_1">Projects</a>
+            </div>
+
+                <!-- Button -->
+
+            <div class="btn_1">
+                <button>Get Started</button>
+            </div>
+        </nav>
+
+                <!-- Body of the web page -->
+
+        <div class="bd">
+
+                        <!-- Left side part of the page -->
+
+            <div class="left">
+            
+            </div>
+
+                        <!-- Right side part of the page -->
+
+                        <!-- Admin login  -->
+            <div class="right" id="down">
+                <h2>Admin</h2>
+                <form>
+                    <input type="text" placeholder="User ID">
+                    <input type="password" placeholder="Password" name="" id="pass" >
+                    <div class="ic">
+                        <a href="#" onclick="pass()">show password</a>
+                    </div>
+                    <input type="submit" placeholder="Authentication" name="" id="auth">
+                </form>
+                <div class="h_row"></div>
+                            <!-- Portal login -->
+                    <h2 id="pp">Portal Login</h2>
+                    <form id="port">
+                        <input type="text" placeholder="USER - ID" name="" id="usr_id">
+                        <input type="submit"  value="GO" name="" id="usr_sub">
+                    </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        var a;
+        function pass(){
+            if (a==1){
+                document.getElementById('pass').type='password';
+                a=0;
+            }
+            else{
+                document.getElementById('pass').type='text';
+                a=1;
+            }
+        }
+    </script>
+</body>
+</html>
