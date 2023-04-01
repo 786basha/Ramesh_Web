@@ -156,7 +156,7 @@ align-items: center;
 .right{
 width: 400px;
 height: fit-content;
-border: 1px solid white;
+/* border: 1px solid white; */
 }
 
 .right h2{
@@ -277,7 +277,7 @@ flex-direction: row;
       width: fit-content;
       padding: 5px 7px;
       height: 10vh;
-      border: 2px solid wheat;
+      /* border: 2px solid wheat; */
     }
 
 @media only screen and (max-width:700px) {
@@ -310,7 +310,7 @@ nav{
     visibility: visible;
     width: 20vh;
     height: fit-content;
-    border: 2px solid wheat;
+    /* border: 2px solid wheat; */
   }
 
 @media only screen and (max-width:460px){
