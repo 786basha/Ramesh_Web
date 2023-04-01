@@ -268,7 +268,8 @@ flex-direction: row;
   }
   .right {
     margin-top: 10vh;
-    box-shadow: 1px 1px 20px white;
+    /* height: max-content; */
+    /* box-shadow: 1px 1px 20px white; */
     }
     .bd #top button{
       margin: 5vw 0;
@@ -304,14 +305,11 @@ nav{
   flex-direction: row;
   width: max-content;
 }
-.right {
-  box-shadow: 1px 1px 20px red;
-  }
 
   .bd #top{
     visibility: visible;
     width: 20vh;
-    height: 50vh;
+    height: fit-content;
     border: 2px solid wheat;
   }
 
@@ -364,6 +362,7 @@ nav{
 }
 
 .bd #down{
+  height: max-content;
   width: 80vw;
   /* height: fit-content; */
   border: 2px black;
