@@ -20,5 +20,5 @@ function redir(){
 }
 
 function svcnf(){
-    window.location.href='http://18.183.24.207/Details';
+    window.location.href='http://18.183.24.207/';
 }
