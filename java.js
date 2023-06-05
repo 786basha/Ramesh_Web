@@ -16,9 +16,34 @@ function authh(){
 }
 
 function redir(){
-    window.location.href='http://18.183.24.207/Home/';
+    window.location.href='/html/gist.html';
 }
+
+function ment(){
+    window.location.href='http://18.183.24.207/Home';
+    alert('Login success')
+}
+
 
 function svcnf(){
     window.location.href='http://18.183.24.207/';
+}
+
+function Mentor_log(){
+    let data = document.getElementById('Mentor')
+    let usrr = document.getElementById('usr').value;
+    let pass = document.getElementById('pswd').value;
+    if (data.value == 'Ramesh'){
+        if(usrr == 'admin'){
+            if(pass == '12345678'){
+                ment()
+            }
+            else{
+                alert('Wrong password')
+            }
+        }
+        else{
+            alert('Wrong user name')
+        }
+    }
 }
